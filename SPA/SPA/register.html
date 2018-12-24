@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>首页</title>
+<title>注册</title>
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="node_modules/bootstrap/css/carousel.css">
 <link rel="stylesheet" href="css/style.css" />
@@ -11,20 +11,36 @@
       <br>
       <form class="form-horizontal">
         <div class="container-fluid">
-         
-        <div class="form-group">
+          <div class="form-group">
           <div class="col-xs-12">
-            <a href="online-booking.html" class="btn btn-spa btn-block btn-lg m-t-15">客  户</a>
+            <input type="text" class="form-control" id="name" placeholder="请输入真实姓名">
           </div>
         </div>
         <div class="form-group">
           <div class="col-xs-12">
-            <a href="manager-assign-project.html" class="btn btn-spa btn-block btn-lg m-t-15">店  长</a>
+            <select class="form-control">
+              <option>请选择性别</option>
+              <option>男</option>
+              <option>女</option>
+            </select>
           </div>
         </div>
         <div class="form-group">
           <div class="col-xs-12">
-            <a href="waiter-accept-service.html" class="btn btn-spa btn-block btn-lg m-t-15">店  员</a>
+            <input type="text" class="form-control" id="phone" placeholder="请输入手机号码">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-6">
+            <input type="text" class="form-control" id="code" placeholder="短信验证码">
+          </div>
+          <div class="col-xs-6 text-right">
+            <button type="button" class="btn btn-spa">获取短信验证码</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <a href="online-booking.html" class="btn btn-spa btn-block btn-lg m-t-15">前往预约</a>
           </div>
         </div>
         
